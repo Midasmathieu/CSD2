@@ -7,10 +7,16 @@
 class Instrument {
 public:
     Instrument();
-    void play();
+    void play(int note);
+    int range();
+    
 protected:
     std::string name;
     std::string sound;
+    int note;
+    bool material;
+    int lowestNote;
+    int highestNote;
 };
 
 #endif
