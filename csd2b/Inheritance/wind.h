@@ -1,16 +1,12 @@
-#ifndef WIND
-#define WIND
+#ifndef _WIND_H_
+#define _WIND_H_
 
-#include <iostream> 
 #include "instrument.h"
+#include <iostream>
 
 class Wind : public Instrument {
-public: 
+public:
     Wind();
-private:
-    bool air();
-    bool blowhole();
-    int numberButtons();
 };
 
 #endif

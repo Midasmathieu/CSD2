@@ -1,14 +1,15 @@
-#include <iostream> 
-#include "instrument.h"
-#include "wind.h"
+#include <iostream>
+#include <string>
+#include "guitar.h"
 #include "trumpet.h"
+#include "klarinet.h"
 
 
 int main() {
-    Trumpet atrumpet;
-    atrumpet.name = "trompet";
-    atrumpet.sound = "pwaa";
-    atrumpet.pitch = 99;
-    atrumpet.play();
-
+  Trumpet aTrumpet;
+  aTrumpet.play();
+  Klarinet aKlarinet;
+  aKlarinet.play();
+  Guitar aGuitar;
+  aGuitar.play();
 }

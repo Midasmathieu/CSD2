@@ -1,17 +1,16 @@
-#ifndef INSTRUMENT
-#define INSTRUMENT
-#include <iostream>
+#ifndef _INSTRUMENT_H_
+#define _INSTRUMENT_H_
+
+#include <iostream> 
 
 
 class Instrument {
 public:
     Instrument();
+    void play();
+protected:
     std::string name;
     std::string sound;
-    int pitch;
-    void play(); 
-    int range(int freq);
-
 };
 
 #endif

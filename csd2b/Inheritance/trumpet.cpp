@@ -1,14 +1,10 @@
-#include "trumpet.h"
+#include "trumpet.h"  
+#include "wind.h"
 #include <iostream>
 
+
 Trumpet::Trumpet() {
-    std::cout << "Trumpet constructor" << std::endl;
-    // std::string name;
-    // std::string sound;
+    name = "Trumpet";
+    sound = "Tetete";
+  }
 
-};
-
-
-// void Trumpet::bell() {
-// std::cout << "trumpet::bell" << std::endl;
-// }
